@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="javascript" href="assets/javascript/game.js">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-        crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -34,31 +33,26 @@
 
     </div>
 
-    <div class="randomNumber">
-        <span id="randomNumber"></span>
-    </div>
-
     <div class="winsLossesBox">
         <p>Wins: <span id="wins"></span></p>
+        <br>
         <p>Losses: <span id="losses"></span></p>
     </div>
 
-    <a href=""><img src="assets/images/jewel1.jpg" alt=""></a>
-    <a href=""> <img src="assets/images/jewel2.jpg" alt=""></a>
-    <a href=""> <img src="assets/images/jewel3.jpg" alt=""></a>
-    <a href=""> <img src="assets/images/jewel4.jpg" alt=""></a>
-
-    <div class="score">
-        <p>Your total score is:</p>
+    <div class="randomNumber">
+        <p>Number to hit: </p><span id="randomNumber"></span>
     </div>
 
+    <input type="image" class="jewels" id="jewel1" src="assets/images/jewel1.png" />
+    <input type="image" class="jewels" id="jewel2" src="assets/images/jewel2.png" />
+    <input type="image" class="jewels" id="jewel3" src="assets/images/jewel3.png" />
+    <input type="image" class="jewels" id="jewel4" src="assets/images/jewel4.png" />
+
     <div class="score">
-        <span id="totalScore"></span>
+        <p>Your current number: </p><span id="totalScore"></span>
     </div>
 
-    <!-- Script Files -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <!-- Script File -->
     <script src="assets/javascript/game.js"></script>
 </body>
 
