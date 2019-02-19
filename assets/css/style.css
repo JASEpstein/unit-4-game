@@ -7,7 +7,7 @@ body {
 
 .jewels {
     display: inline;
-    width: 90px;
+    width: 100px;
     height: 90px;
 }
 
@@ -23,6 +23,15 @@ h1 {
 
 .instructions {
     max-width: 760px;
+    background-color: lightgoldenrodyellow;
+    margin: 1%;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#imperative {
+    max-width: 400px;
+    height: 30px;
     background-color: orange;
     margin: 1%;
     padding-top: 10px;
@@ -30,7 +39,7 @@ h1 {
 }
 
 .winsLossesBox {
-    max-width: 760px;
+    max-width: 400px;
     height: 90px;
     background-color: lightgreen;
     margin: 1%;
@@ -38,8 +47,12 @@ h1 {
     padding-left: 10px;
 }
 
-.randomNumber {
-    max-width: 360px;
+.winsLossesBox p {
+    padding-top: 10px;
+}
+
+.computer {
+    max-width: 400px;
     height: 50px;
     background-color: purple;
     color: white;
@@ -48,8 +61,8 @@ h1 {
     padding-left: 10px;
 }
 
-.score {
-    max-width: 360px;
+.user {
+    max-width: 400px;
     height: 50px;
     background-color: lightcoral;
     margin: 1%;
