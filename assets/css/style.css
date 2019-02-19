@@ -53,7 +53,7 @@ h1 {
 
 .computer {
     max-width: 400px;
-    height: 50px;
+    height: 60px;
     background-color: purple;
     color: white;
     margin: 1%;
@@ -63,9 +63,15 @@ h1 {
 
 .user {
     max-width: 400px;
-    height: 50px;
+    height: 60px;
     background-color: lightcoral;
     margin: 1%;
     padding-top: 15px;
     padding-left: 10px;
+}
+
+#randomNumber,
+#userNumber {
+    display: inline;
+    font-size: 30px;
 }
